@@ -10,7 +10,7 @@
     <div id="juego"></div>
     <script src="js/rectangulo.js"></script>
 
-    <script type=src="js/buclePrincipal.js"></script>
+    <script src="js/buclePrincipal.js"></script>
     <script src="js/dimensiones.js"></script>
     <script src="js/inicio.js"></script>
 </body>
