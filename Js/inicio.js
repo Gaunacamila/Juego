@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //DOM = DOCUMENT OBJET MODEL 
 
-let inicio = {
-    iniciarJuego: function(){
-        console.log("Juego iniciado")
-        dimensiones.iniciar();
-        let r = new rectangulo( 10,10,100,100);
+var inicio = {
+	iniciarJuego: function() {
+		console.log("Juego iniciado");
+		dimensiones.iniciar();
+        var r = new Rectangulo(0,0,100,100);
+        var r2 = new Rectangulo(100, 0, 100, 100);
         buclePrincipal.iterar();
     }
 };
 
-inicio.iniciarJuego()
