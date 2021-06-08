@@ -21,4 +21,4 @@ Rectangulo.prototype.insertarDOM = function() {
 	document.getElementById(this.id).style.backgroundColor = color;
 }                                        
 
-console.log(Rectangulo.insertarDOM())
+console.log(Rectangulo.prototype.insertarDOM())
